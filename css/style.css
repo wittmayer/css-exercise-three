@@ -4,6 +4,15 @@ body {
   font-size: 10px;
 }
 
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
 .container {
   margin: 0 auto;
   width: 420px;
@@ -11,11 +20,38 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 0 20px 15px;
   position: fixed;
   width: 420px;
+  background-color: black;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.location {
+  background-color: #D3D3D3;
+  border-color: black;
+  border: auto;
+}
+
+.location:hover {
+  background-color: #808080;
+}
+
+.arrow {
+  display: inline-block;
+  float:right;
+  margin: 20px;
+}
+
+.content {
+  display: inline-block;
+  margin: 20px;
 }
