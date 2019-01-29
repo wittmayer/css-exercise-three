@@ -39,6 +39,8 @@ nav {
   background-color: #D3D3D3;
   border-color: black;
   border: auto;
+  border-style: solid;
+  border-width: thin;
 }
 
 .location:hover {
@@ -48,7 +50,7 @@ nav {
 .arrow {
   display: inline-block;
   float:right;
-  margin: 20px;
+  margin: 25px;
 }
 
 .content {
